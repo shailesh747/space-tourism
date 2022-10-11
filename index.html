@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+	<link rel="stylesheet" href="css/master.css">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Barlow&family=Barlow+Condensed&family=Bellefair&display=swap" rel="stylesheet">
+
+	<title>Frontend Mentor | Space tourism website</title>
+
+	<script src="js/navigation.js" defer></script>
+</head>
+
+<body class="home">
+	<header class="primary-header flex">
+		<div>
+			<img src="assets/shared/logo.svg" alt="space tourism logo" class="logo">
+		</div>
+		<button data-btn-visible="false" class="mobile-nav-toggle"></button>
+		<nav>
+			<ul data-visible="false" class="primary-navigation underline-indicators flex">
+				<a href="index.html" class="active ff-sans-cond letter-spacing-2 text-white uppercase"><li><span>00</span> Home</li></a>
+				<a href="destination.html" class="ff-sans-cond letter-spacing-2 text-white uppercase"><li><span>01</span> Destination</li></a>
+				<a href="crew.html" class="ff-sans-cond letter-spacing-2 text-white uppercase"><li><span>02</span> Crew</li></a>
+				<a href="technology.html" class="ff-sans-cond letter-spacing-2 text-white uppercase"><li><span>03</span> Technology</li></a>
+			</ul>
+		</nav>
+	</header>
+
+	<main class="grid-container grid-container--home">
+		<div>
+			<h1 class="ff-sans-cond fs-500 text-accent letter-spacing-1 uppercase">So, you want to travel to
+				<span class="d-block ff-serif fs-900 text-white">Space</span>
+			</h1>
+			<p class="text-accent">Let’s face it; if you want to go to space, you might as well genuinely go to
+				outer space and not hover kind of on the edge of it. Well sit back, and relax
+				because we’ll give you a truly out of this world experience!</p>
+		</div>
+		<div>
+			<a href="destination.html" class="large-button bg-white ff-serif text-dark uppercase">Explore</a>
+		</div>
+	</main>
+
+</body>
+
+</html>
